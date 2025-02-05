@@ -97,8 +97,8 @@ $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/2.png)
 
-$~$
 Set up and configure the AWS CLI using 
+
 $~$
 ```sh
 aws configure
@@ -109,24 +109,24 @@ $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/3.png)
 
-$~$
 Retrieve details about the AWS account
+
 $~$
 ```sh
 aws sts get-caller-identity
 ```
 The AWS sts get-caller-identity command is used to retrieve details about the AWS account and IAM user or role associated with the current AWS credentials. It is a simple way to verify that your AWS CLI is configured correctly and that you have valid credentials.
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/4.png)
 
-$~$
 Terraform version details
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/5.png)
 
-$~$
 Configured the core files ( main.tf & variables.tf)
 
 These files are the core of your Terraform configuration. They define the infrastructure resources and the variables used to customize the deployment.
@@ -140,57 +140,59 @@ Purpose: Defines variables used in the main.tf file, making the configuration re
 $~$
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/6.png)
 
-$~$
 Initializing terraform
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/7.png)
 
-$~$
 Plan Deployment
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/8.png)
 
-$~$
 Generates an execution plan, showing the resources that will be created
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/9.png)
 
-$~$
 Apply configuration
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/10.png)
 
-$~$
 Typing yes when prompted to confirm the creation of resources
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/11.png)
 
-$~$
 Verify Resources: -> Newly created VPC details
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/12.png)
 
-$~$
 Newly created VPC resource map details
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/13.png)
 
 $~$
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/14.png)
-$~$
+
 Destroys all the resources created by the Terraform configuration
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/15.png)
-$~$
+
 Current VPC details; VPC destroyed successfully
+
 $~$
 
 ## Conclusion
