@@ -91,8 +91,8 @@ $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/1.png)
 
-$~$
 Current VPC details
+
 $~$
 
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/2.png)
