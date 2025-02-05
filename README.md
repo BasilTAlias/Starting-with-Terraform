@@ -128,6 +128,8 @@ $~$
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/5.png)
 
 Configured the core files ( main.tf & variables.tf)
+---
+$~$
 
 These files are the core of your Terraform configuration. They define the infrastructure resources and the variables used to customize the deployment.
 
@@ -137,7 +139,9 @@ Purpose: Contains the main configuration for your AWS resources (e.g., VPC, subn
 2. variables.tf
 Purpose: Defines variables used in the main.tf file, making the configuration reusable and customizable.
 
+---
 $~$
+
 ![Alt text of the image](https://github.com/BasilTAlias/Starting-with-Terraform/blob/main/images/6.png)
 
 Initializing terraform
